@@ -1,7 +1,7 @@
 # Intelligent-Spellcheck
 An intelligent spellcheck function built in python for use in any scenario. Free for use and integration but proper credits to Daniel Elkoni and this README included somewhere in the final repository.
 ## Use Cases
-This code can be used in many applications. Including both non and case-sensitive testing applications, to intelligently check user input and accept it even when the user might be innacurate with their spelling, word processing, autocorrect (if integrated with a word bank[possible future integration])
+This code can be used in many applications. Including both non and case-sensitive testing applications, to intelligently check user input and accept it even when the user might be innacurate with their spelling, word processing, autocorrect (if integrated with a word bank[possible future integration]), and many more user inpute processing situations.
 ## V1.0.0
 Can check a word(user input) against a key word and determine if they were meant to be the same word, example: SpellCheck(input, key)
 ## V1.1.0
