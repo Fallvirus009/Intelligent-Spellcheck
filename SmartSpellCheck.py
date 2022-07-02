@@ -24,7 +24,7 @@ def spellCheck(word, key, accPercForCorr, caseSens):
         print(f"+1 acc {len(w)}={len(k)}")
         accuracy += 1
 
-    if round(accuracy/total,2) >= (accPercForCorr/100):
+    if round(accuracy/total,2) >= (round(accPercForCorr/100, 2)):
         print(f'{round(accuracy/total,2)} Same word/phrase')
     else:
         print(f'{round(accuracy/total,2)} Not same word/phrase')
