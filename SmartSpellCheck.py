@@ -1,4 +1,4 @@
-def spellCheck(word, key):
+def spellCheck(word, key, accPercForCorr):
     accuracy = 0
     total = len(key)
 
@@ -12,9 +12,9 @@ def spellCheck(word, key):
             print(f"+1 acc {word[i]}{key[i]}")
         i += 1
 
-    if round(accuracy/total,2) >= .70:
+    if round(accuracy/total,2) >= (accPercForCorr/100):
         print(f'{round(accuracy/total,2)} Same word')
     else:
         print(f'{round(accuracy/total,2)} Not same')
 
-spellCheck('wammsbe', 'wannabe')
+spellCheck('wammsbe', 'wannabe', 70)
