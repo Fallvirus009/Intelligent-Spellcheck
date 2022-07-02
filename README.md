@@ -11,7 +11,7 @@ Can now accept a case sensitive or non case sensitive boolean, example: SpellChe
 ## V.2.1
 Now has "slippage tolerance", if an accidental space is inserted into the phrase by a user, the function recognizes this and the interal key is shifted with said space. This shift allows the user entered phrase to be compared character by character with the key and to allow such mistakes to possibly be made by an end user.
 ### Slippage Tolerance
-Phrase: "wha t" /n
-Key: "what" /n
-"w" == "w", "h" == "h", "a" == "a", " " != ("t" != " ") /n
+Phrase: "wha t" <br />
+Key: "what" <br />
+"w" == "w", "h" == "h", "a" == "a", " " != ("t" != " ") <br />
 At this point in the process, the computer recognizes a possible mistaken space by a user and in this case an additional space would be inserted into the "t"'s spot on a secondary copy of the key. This all allows the computer to see that the words are an exact match but the user has accidentally inserted a space where it does not belong.
